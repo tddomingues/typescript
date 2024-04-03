@@ -4,6 +4,6 @@
     "typescript": "^5.4.3"
   },
   "scripts": {
-    "start:dev": "ts-node-dev src/A0002-type-any-and-void/index.ts"
+    "start:dev": "ts-node-dev src/A0003-object/index.ts"
   }
 }

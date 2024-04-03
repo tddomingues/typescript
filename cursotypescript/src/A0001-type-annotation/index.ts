@@ -7,7 +7,7 @@ let arrayDeNumeros: Array<number> = [1, 2, 3];
 //ou
 let arrayDeNomes: string[] = ["Carlos", "Luana"];
 
-let objetoDePessoa: { nome: string, idade: number, adulto?: boolean } = {
+let objetoDePessoa: { nome: string; idade: number; adulto?: boolean } = {
   nome: "Lucas",
   idade: 21,
   adulto: true //opcional
