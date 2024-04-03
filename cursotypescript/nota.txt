@@ -1,0 +1,4 @@
+npm i typescript -D
+npx tsc --init
+npx tsc //gera o js
+npx tsc -w //atualiza a js automaticamente
