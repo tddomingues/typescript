@@ -4,6 +4,6 @@
     "typescript": "^5.4.3"
   },
   "scripts": {
-    "start:dev": "ts-node-dev src/A0004-array/index.ts"
+    "start:dev": "ts-node-dev src/A0005-tupla/index.ts"
   }
 }
