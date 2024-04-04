@@ -23,4 +23,12 @@ if (squareOfTwoNumber === null) {
   console.log(squareOfTwoNumber)
 }
 
+//never = nunca vai retornar nada -> em erros não há retorno
+// function criaErro(): never {
+//   throw new Error("Erro!")
+// }
+
+// criaErro()
+
+
 
