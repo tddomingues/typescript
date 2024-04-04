@@ -26,3 +26,15 @@ const pessoa = {
 
 pessoa.exibirNumb()
 semRetorno("um", "dois", "tres")
+
+//unknown = any mais seguro, ou seja, devo fazer checagem para poder continuar
+
+let x: unknown
+
+x = 20
+x = "2"
+x = 10
+const y = 10
+
+if (typeof x === "number") console.log(x + y)
+
