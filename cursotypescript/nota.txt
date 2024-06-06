@@ -2,3 +2,17 @@ npm i typescript -D
 npx tsc --init
 npx tsc //gera o js
 npx tsc -w //atualiza a js automaticamente
+
+//executar: npm run start:dev (veja o destino de exe no scripts)
+
+//eslint
+npm i eslint -D
+npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
+
+//prettier
+npm i prettier eslint-config-prettier eslint-plugin-prettier -D
+
+//webpack
+npm i ts-loader webpack webpack-cli -D
+npx webpack -> para gerar a pasta dist com os arquivos compactados
+npx webpack -w -> assisti as mudanças

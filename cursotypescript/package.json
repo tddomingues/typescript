@@ -1,9 +1,16 @@
 {
   "devDependencies": {
+    "@types/validator": "^13.11.10",
+    "ts-loader": "^9.5.1",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "start:dev": "ts-node-dev src/A0009-tipos-literais/index.ts"
+    "start:dev": "ts-node-dev src/A0015-funcao-com-tipos.ts"
+  },
+  "dependencies": {
+    "validator": "^13.12.0"
   }
 }
